@@ -1,0 +1,56 @@
+.about-section {
+  background: linear-gradient(to bottom right, #f3f5ed, #d8e2dc);
+  color: #2f3e46;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #354f52;
+  position: relative;
+}
+
+.about-title::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #84a98c;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #354f52;
+}
+
+.highlight {
+  color: #52796f;
+  font-weight: 600;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+  display: inline-block;
+  color: #2f3e46;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
+  background: rgba(132, 169, 140, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+}

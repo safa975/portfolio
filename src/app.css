@@ -1,0 +1,24 @@
+/* smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ensure the navbar space is accounted for when jumping to sections */
+section {
+  scroll-margin-top: 88px; /* set this to navbar height */
+  padding: 80px 0;
+  min-height: calc(100vh - 88px);
+}
+
+/* simple reset for main area */
+main {
+  margin-top: 0;
+  padding-top: 0;
+  background: linear-gradient(to bottom right, #f3f5ed, #d8e2dc);
+  color: #2f3e46;
+}
+
+/* optional: ensure body is tall enough for scrolling test */
+body, #root {
+  height: 100%;
+}
